@@ -1,4 +1,5 @@
 let vendor = [
+    /**VENDOR_ID  ,	VENDOR_NAME  , 	VENDOR_PHONE  , 	VENDER_EMAIL */
     [5000,	'Apple 	2569561656	apple@gmail.com']
     [5100,	 'Microsoft 	6165486561	microsoft@gmail.com']
     [5200,	'Lenovo 	3215689466	lenovo@gmail.com']

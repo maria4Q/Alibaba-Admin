@@ -1,4 +1,4 @@
-let user = [
+export let user = [
  /*USER_ID ,USERNAME ,   PASSWORD ,    FULL_NAME	  ,        ADDRESS	                         ,      EMAIL	             ,  PHONE */
     [100,  'anna'    ,  'white00' , 'Anna Addison'    , '1325 Candy Rd, San Francisco, CA 96123' , 	'anna.addison@yahoo.com' ,  3841019535]
     [101,  'carol1'  ,  'orange01', 'Carol Campbell'  , '1931 Brown St, Gainesville, FL 85321'   , 	'carol.campbell@aol.com' ,  2548952651]
