@@ -8,12 +8,56 @@
 
  <!--Desing-->
     <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/user_verification.css">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
-    
-    
-    <script src="./js/main.js" type="module"></script>
+  
+    <section class="login_conteiner active-flex" id="login_conteiner">
+
+        <form class="formulario-login " id="form">
+            <h1>Agent Login</h1>
+            <br>
+            <p>Hey, Enter your details, </p>
+            <p>email and correct password please</p>
+
+            <!--ENTRADA PARA EMAIL/USSER-->
+            <label class="input-label"> 
+                <input type="text" placeholder="Enter Email" id="username">
+            </label>
+
+             <!--ENTRADA PASSWORD-->
+            <label class="input-label">
+                <input type="password" placeholder="Passcode" id="password">
+            </label>
+
+            <!--BOTON FORMULARIO-->
+            <button class="boton" type="submit" id="button">
+                Sign in
+            </button>          
+        </form>
+    </section>
+
+    <!--MOSTRAR CUANDO EL PROGRAMA YA VERIFICO LOS DATOS Y TODOS LOS DATOS SON CORRECTOS-->
+    <div class="usuarioregistrado" id="usuarioregistrado">
+        <span>Bienvendido a Alibaba</span>
+    </div>
+
+
+    <script src="./js/main.js" type="module"> </script>
     
 </body>
 </html>

@@ -1,12 +1,36 @@
- /*ALGORITMO
-  Esta reaizanda con function para poder pedir parametros desde el mian del
-  programa, el objetivo de este es poder analizar datos como si el usario es correcto
-  o incorrecto, como tambien gmail del usuario
+import { username } from "./user.js";
+import { admin } from "./user_verification.js";
 
-  1.El primer parametro que el programa analiza es el data que se ha 
-  2.El segundo parametro que el programa analiza es el dato que se coloque
+export var usuarioregistrado = document.getElementById("usuarioregistrado");
+export var login_conteiner = document.getElementById("login_conteiner");
 
-  Cuando el proceso de del algoritmo, muestra en consola al usuario si el usuario y el password
-  estan correcto.
 
-*/ 
+export function login(usser, passcode){
+
+    
+    for(let i = 0; i<=6; i++){
+        if(usser === username[i][1]){
+            if(passcode === username[i][2]){
+                console.log("Tus datos son correctos");
+                admin();
+            }else{
+                console.log('Dato Incorrecto');
+            }
+        }else {
+            console.log("El Usuario  o/y es incorrecto");
+        }
+    }
+    
+} 
+
+/*EL SIGUIENTE ALGORTIMO INDICA QUE SI EL USUARIO INGRESADO
+ES IGUAL A LA POSICION SELECCIONADA DE LA MATRIZ LLAMADA USERNAME
+EL USUARIO INGRESA ES CORRECTO, PERO SI ESTA NO ES IGUAL A LA MATRIZ 
+LLAMADA USSER EL DATO INGRESADO ES INCORRECTO.*/
+
+/*EL SIGUIENTE INDICA QUE SI EL DATO, INGRESADO EN EL SEGUNDO CAMPO  
+ES IGUAL AL DATO DE LA POSICION DADA, EL DATO ES CORRECTO, SI ES LO
+CONTRARIO ESTE DATO SERA ICORRECTO */
+
+
+

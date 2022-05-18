@@ -5,5 +5,20 @@
 }
 html{
     font-size: 10px;
+    background-image: url(https://github.com/MariaR17/iconos/blob/main/fondoo.jpg?raw=true);
     
+}
+#root{
+    --white: #FFFFFF;
+    --orange: #FDC886;
+    --black: #1E1E1E;
+}
+.active-block{
+    display: block;
+}
+/*.active-flex{
+    display: flex;
+}*/
+.desactive{
+    display: none;
 }
